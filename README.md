@@ -6,6 +6,11 @@ Currently when app URL changes for some reason, Shopify would keep sending webho
 
 Script that goes through all stores where your app is installed and then updates the webhook callback URL.
 
+## Underlying Shopify APIs:
+
+1. [Retrieves a list of webhooks](https://shopify.dev/docs/api/admin-rest/2024-04/resources/webhook#get-webhooks)
+2. [Modify an existing Webhook](https://shopify.dev/docs/api/admin-rest/2024-04/resources/webhook#put-webhooks-webhook-id)
+
 ### Prerequisite 
 
 1. Shopify domain names for all stores that has your app installed. (refer `data.json`)
