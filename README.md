@@ -1,5 +1,3 @@
-Bulk update Shopify webhook callback URLs
-
 ## What's the problem?
 
 Currently when app URL changes for some reason, Shopify would keep sending webhook callbacks to old URL. This would result in webhook failures and potential removals if apps don't ack in 24 hours. Currently Shopify doesn't allow you to bulk update callback URL.
